@@ -4,6 +4,9 @@
     <router-link :to="{ name: 'PostPost' }">
       <button>發文</button>
     </router-link>
+    <router-link :to="{ name: 'Login' }">
+      <button>登入</button>
+    </router-link>
     <div v-if="posts.length">
       <PostList :posts="posts" />
     </div>
